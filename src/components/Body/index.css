@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.body-con {
+  margin: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  .body-con {
+    margin: 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .left-navbar-con {
+    background-color: #cbd5e1;
+    width: 100%;
+    padding: 20px;
+  }
+  .content-con {
+    background-color: #f1f5f9;
+    width: 100%;
+    padding: 20px;
+  }
+}
+.left-navbar-con {
+  background-color: #cbd5e1;
+  width: 30%;
+  padding: 20px;
+}
+.left-nav-heading {
+  color: #64748b;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+}
+.unordered-list {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  padding-bottom: 10px;
+  display: flex;
+}
+.content-con {
+  background-color: #f1f5f9;
+  width: 30%;
+  padding: 20px;
+}
+.ad-para {
+  border: 1px solid #64748b;
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
